@@ -62,22 +62,22 @@ mod tests {
 
     #[test]
     fn it_has_two_letters() {
-        assert_eq!(true, has_char_freq(&"hah".to_string(), 2));
+        assert_eq!(true, has_char_freq(&"hah".to_string(), 2))
     }
 
     #[test]
     fn it_does_not_have_two_letters() {
-        assert_eq!(false, has_char_freq(&"abbbcdefg".to_string(), 2));
+        assert_eq!(false, has_char_freq(&"abbbcdefg".to_string(), 2))
     }
 
     #[test]
     fn it_has_three_letters() {
-        assert_eq!(true, has_char_freq(&"blahbsdb".to_string(), 3));
+        assert_eq!(true, has_char_freq(&"blahbsdb".to_string(), 3))
     }
 
     #[test]
     fn it_does_not_have_three_letters() {
-        assert_eq!(false, has_char_freq(&"abbbab".to_string(), 3));
+        assert_eq!(false, has_char_freq(&"abbbab".to_string(), 3))
     }
 
     #[test]
